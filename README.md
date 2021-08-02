@@ -1,13 +1,15 @@
-# f-rcnn
+# Faster-RCNN Implementation
 First version of Faster-RCNN
 
-##
-Tutorial Link: 
-https://debuggercafe.com/faster-rcnn-object-detection-with-pytorch/
+## Tutorial Link
+Following is the [Tutorial](https://debuggercafe.com/faster-rcnn-object-detection-with-pytorch/)
 
-## 
-Installation
-``
+
+## Installation
+
+Installation using conda and pip
+
+```
 
 conda create --name pytorch python=3.6 --yes
 
@@ -18,29 +20,28 @@ pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f ht
 
 pip install opencv-python
 
-``
+```
 
-##
-Usage
+## Usage
 
-###
-For inference on images
+Usage for detecting objects & persons in images & videos
 
-``
+### For inference on images
+
+```
 python detect.py --input input/horses.jpg
 
 python detect.py --input input/people.jpg
 
 python detect.py --input input/people.jpg --min-size 1024
 
-``
+```
 
-###
-For inference on videos
+### For inference on videos
 
-``
+```
 python detect_vid.py --input input/video2.mp4
 
 python detect_vid.py --input input/video2.mp4 --min-size 300
 
-``
+```
