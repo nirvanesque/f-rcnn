@@ -11,11 +11,13 @@ Installation using conda and pip
 
 ```
 
-conda create --name pytorch python=3.6 --yes
+conda create --name pytorch python=3.8 --yes
 
 conda activate pytorch
 
-pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+pip install --upgrade torch 
+
+pip install --upgrade torchvision
 
 pip install opencv-python
 
