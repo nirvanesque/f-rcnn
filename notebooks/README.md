@@ -21,12 +21,23 @@ pip install --upgrade torchvision
 
 pip install opencv-python
 
+python -m pip install detectron2 -f \
+  https://dl.fbaipublicfiles.com/detectron2/wheels/cu111/torch1.9/index.html
+
 
 ```
 
 ## Usage
 
 Usage for detecting objects & persons in images & videos
+First download the git repository:
+
+```
+
+cd /opt/
+
+git clone https://github.com/facebookresearch/detectron2.git
+
 
 ### For inference on images
 
