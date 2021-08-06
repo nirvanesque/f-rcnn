@@ -2,7 +2,12 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Project-specific files & directories
 outputs/
+notebooks/balloon/
+notebooks/balloon_dataset.zip
+notebooks/__MACOSX/
 
 # C extensions
 *.so
