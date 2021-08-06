@@ -39,6 +39,8 @@ cd /opt/
 git clone https://github.com/facebookresearch/detectron2.git
 
 
+```
+
 ### For inference on images
 
 ```
