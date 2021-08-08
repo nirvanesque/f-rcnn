@@ -15,7 +15,7 @@ conda create --name det python=3.8 --yes
 
 conda activate det
 
-pip install --upgrade torch 
+conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c nvidia
 
 pip install --upgrade torchvision
 
