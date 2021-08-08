@@ -17,9 +17,7 @@ conda activate det
 
 conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch -c nvidia
 
-pip install --upgrade torchvision
-
-pip install opencv-python
+pip install --upgrade opencv-python
 
 python -m pip install detectron2 -f \
   https://dl.fbaipublicfiles.com/detectron2/wheels/cu111/torch1.9/index.html
